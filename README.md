@@ -1,3 +1,18 @@
+# MiPortfolio - En Proceso
+Presentación de Mi portfolio
+
+Actualmente me encuentro trabajando en Mi portfolio, todos los días trato de cambiar algo, modificarlo.
+A medida que voy adquiriendo conocimientos nuevos o perfeccionando los que ya tengo, los voy aplicando acá o en algún otro proyecto.
+
+Etapas de desarrollo al día de hoy:
+
+1- Maquetación con Html5 y Css3
+
+2- Responsive Design
+
+3- Adaptación a React (en proceso)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
