@@ -33,24 +33,22 @@ class Contact extends React.Component {
             <section className='contact'>
                 <div className='formulario'>
                     <h2>Tu sugerencia me ayuda a mejorar</h2>
-                    <form className='mid-form' onSubmit={this.recibirForm}>
+                    <form className='form'>
                         <div className='form-group'>
-                            <label htmlFor='nombre'>Nombre</label>
-                            <input type='text' name='nombre' ref={this.nombreRef}></input>
+                            <label >Nombre</label>
+                            <input type='text' name='nombre'></input>
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='apellido'>Apellido</label>
-                            <input type='text' name='apellido' ref={this.apellidoRef}></input>
+                            <label >Apellido</label>
+                            <input type='text' name='apellido'></input>
                         </div>
 
                         <div className='form-group'>
-                            <label htmlFor='sugerencia'>Sugerencias</label>
-                            <textarea type='text' name='sugerencia' ref={this.sugerenciaRef}></textarea>
+                            <label >Sugerencias</label>
+                            <textarea type='text' name='sugerencia'></textarea>
                         </div>
-
-                        <div className='clearfix'></div>
-                        <input type='submit' value='Enviar' className='btn btn-success'></input>
+                        <input type='submit' value='Enviar' className='btn' id="btn-contact"></input>
                     </form>
                 </div>
                 <div className='otrosContactos'>

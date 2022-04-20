@@ -26,7 +26,7 @@ p {
   margin-bottom: 30px;
   max-width: 1200px;
   overflow: hidden;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .hero {
   height: 100vh;
@@ -50,17 +50,18 @@ p {
 .hero__texts {
   width: 80%;
   margin-bottom: 50px;
+  margin-top: 12em;
 }
 
 .hero__title {
   padding: 10px;
-  font-size: 3.2rem;
+  font-size: 4rem;
   animation-duration: 3s;
   animation-name: slidein;
 }
 
 .hero__subtitle {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 300;
   margin: 15px 0;
   margin-left: 12px;
@@ -134,6 +135,7 @@ path{
 .presentation__cta:hover {
   background-color: #08123f;
   transition: all 0.5s ease-in-out;
+  color: #fff;
 }
 
 /*ESTILOS SKILLS */
@@ -226,6 +228,10 @@ img {
   transform: scale(1.10);
 }
 
+.projects__item a{
+  font-size: 1.4rem;
+}
+
 .projects__img {
   width: 100%;
   height: 100%;
@@ -251,13 +257,14 @@ img {
   font-size: 30px;
 }
 
+
 /*ESTILOS FOOTER */
 
 .footer {
   display: flex;
   height: 280px;
   background: rgb(8,18,63);
-  background: linear-gradient(83deg, rgba(8,18,63,1) 0%, rgba(58,69,117,1) 27%, rgba(102,126,234,1) 64%, rgba(182,192,241,1) 100%);
+  background: linear-gradient(83deg, rgba(8,18,63,1) 0%, rgba(58,69,117,1) 27%, rgba(102,126,234,1) 64%, rgb(158, 172, 240) 100%);
 }
 .footer__contact {
   display: flex;
@@ -268,6 +275,7 @@ img {
   display: grid;
   grid-template-columns: 3rf 2rf;
   align-items: center;
+  padding-bottom: 0;
 }
 
 .footer__title {
@@ -316,10 +324,16 @@ img {
 }
 
 .active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
+  width: 8rem;
+  height: 4rem;
+  text-align: center;
   text-decoration: none;
   margin-right: 20px;
-  padding: 10px 15px;
+  padding: 5px;
   font-weight: inherit;
   border: 2px solid #fff;
   background-color: rgba(65, 98, 247, 0.548);
@@ -333,11 +347,15 @@ img {
 }
 
 .nav__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #fff;
   text-decoration: none;
   margin-right: 20px;
-  padding: 10px 15px;
-  font-weight: inherit;
+  width: 8rem;
+  height: 4rem;
+  text-align: center;
 }
 
 .nav__items--footer {
@@ -368,26 +386,28 @@ img {
 .contact{
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 10px;
   background-color: #c2c9ee;
   justify-content: space-around;
-  height: 31em;
+  height: 36em;
 }
 
 .formulario{
+  width: 40%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 10px;
+
 }
 
 .otrosContactos{
+  height: 85%;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-content: center;
-  margin: 10px;
+  margin: 5px;
   justify-content: space-between;
 }
 
@@ -422,7 +442,7 @@ img {
 
 .form-group{
   padding: 5px;
-  margin: 10px;
+  margin: 5px;
 }
 .form-group label{
   font-size: 25px;
@@ -430,13 +450,14 @@ img {
 }
 
 .form-group input{
-  height: 30px;
+  height: 10px;
   width: 15em;
 }
 
 .form-group textarea{
-  height: 10em;
-  width: 30em;
+  margin-top: 1em;
+  height: 8em;
+  width: 28em;
 }
 
 .btn{
@@ -452,7 +473,15 @@ img {
 }
 .btn:hover {
   background-color: #08123f;
+  color: #fff;
   transition: all 0.5s ease-in-out;
+}
+
+#btn-contact{
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  height: 2em;
 }
 
 .iconcontact {
@@ -461,16 +490,23 @@ img {
 }
 
 #otherNav{
-  height: 3em;
+  width: auto;
   margin-right: 4.5em;
   padding: 0;
+  background-color: #fff;
+  box-shadow: none;
 }
+
+#otherNav a{
+  padding: 15px;
+  margin: 0.5em;
+}
+
 .nav__items__gral{
   color: #08123f;
   text-decoration: none;
   margin-right: 30px;
-  padding: 10px 15px;
-  font-weight: inherit;
+  padding: 5px;
   border: 2px solid #08123f;
 }
 
@@ -483,6 +519,9 @@ img {
   font-weight: inherit;
   border: 2px solid #08123f;
 }
+
+/* ESTILOS GALERIA */
+
 
 /*Responsive Design*/
 

@@ -11,7 +11,7 @@ const NavBar = () => {
         className="iconoNavBar"
         alt={navbar}>
         </img>
-        <nav id="otherNav" className="nav">
+        <nav id="otherNav">
                     <NavLink
                         to="/contact"
                         className={({ isActive }) => (isActive ? "active2" : "nav__items__gral")} >
