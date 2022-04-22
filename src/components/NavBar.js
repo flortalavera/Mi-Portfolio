@@ -13,14 +13,14 @@ const NavBar = () => {
         </img>
         <nav id="otherNav">
                     <NavLink
-                        to="/contact"
-                        className={({ isActive }) => (isActive ? "active2" : "nav__items__gral")} >
-                        Contacto
-                    </NavLink>
-                    <NavLink
                         to="/"
                         className={({ isActive }) => (isActive ? "active2" : "nav__items__gral")} >
                         Inicio
+                    </NavLink>
+                    <NavLink
+                        to="/contact"
+                        className={({ isActive }) => (isActive ? "active2" : "nav__items__gral")} >
+                        Contacto
                     </NavLink>
                     <NavLink
                         to="/certificate"

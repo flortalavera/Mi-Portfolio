@@ -35,17 +35,17 @@ class Contact extends React.Component {
                     <h2>Tu sugerencia me ayuda a mejorar</h2>
                     <form className='form'>
                         <div className='form-group'>
-                            <label >Nombre</label>
+                            <label id='labelClassic'>Nombre</label>
                             <input type='text' name='nombre'></input>
                         </div>
 
                         <div className='form-group'>
-                            <label >Apellido</label>
+                            <label id='labelClassic'>Apellido</label>
                             <input type='text' name='apellido'></input>
                         </div>
 
                         <div className='form-group'>
-                            <label >Sugerencias</label>
+                            <label id='labelClassic'>Sugerencias</label>
                             <textarea type='text' name='sugerencia'></textarea>
                         </div>
                         <input type='submit' value='Enviar' className='btn' id="btn-contact"></input>

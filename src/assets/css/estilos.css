@@ -213,6 +213,7 @@ ol:hover{
   height: inherit;
   white-space: normal;
   text-align: center;
+  margin-bottom: 2em;
 }
 img {
   max-width: 80%;
@@ -230,6 +231,7 @@ img {
 
 .projects__item a{
   font-size: 1.4rem;
+  text-decoration: none;
 }
 
 .projects__img {
@@ -252,12 +254,6 @@ img {
   cursor: pointer;
 }
 
-.projects__icon {
-  margin-top: 10px;
-  font-size: 30px;
-}
-
-
 /*ESTILOS FOOTER */
 
 .footer {
@@ -269,13 +265,14 @@ img {
 .footer__contact {
   display: flex;
   flex-direction: column;
+  margin-left: 72em;
 }
 
 .footer__grid {
   display: grid;
   grid-template-columns: 3rf 2rf;
   align-items: center;
-  padding-bottom: 0;
+  padding-bottom: -10px;
 }
 
 .footer__title {
@@ -386,10 +383,11 @@ img {
 .contact{
   display: flex;
   flex-direction: row;
-  padding: 10px;
-  background-color: #c2c9ee;
+  padding: 5px;
+  background: rgb(62,86,233);
+  background: radial-gradient(circle, rgba(62,86,233,1) 0%, rgba(153,154,235,1) 36%, rgba(190,205,240,1) 62%, rgba(23,31,115,1) 100%);
   justify-content: space-around;
-  height: 36em;
+  height: 34em;
 }
 
 .formulario{
@@ -437,27 +435,38 @@ img {
 
 .iconoNavBar{
   width: 15%;
-  padding-bottom: 10px;
 }
 
 .form-group{
-  padding: 5px;
   margin: 5px;
 }
+.formulario h2{
+  margin-top: 0.3em;
+}
+
 .form-group label{
-  font-size: 25px;
+  font-size: 23px;
   width: 30%;
+  color: #0d0d0d;
+}
+
+#labelClassic{
+  border: none;
+  background-color: transparent;
 }
 
 .form-group input{
   height: 10px;
-  width: 15em;
+  width: 10em;
+  border-color: #08123f;
 }
 
 .form-group textarea{
   margin-top: 1em;
   height: 8em;
   width: 28em;
+  background-color: transparent;
+  border-color: #08123f;
 }
 
 .btn{
@@ -522,6 +531,21 @@ img {
 
 /* ESTILOS GALERIA */
 
+.main-slide{
+  text-align: center;
+  background-color: #414e7e88;
+  height: 33em;
+}
+
+.one-slide{
+  padding-top: 7px;
+  width: 50%;
+  margin-left: 22em;
+}
+
+.carousel{
+  height: fit-content;
+}
 
 /*Responsive Design*/
 

@@ -7,13 +7,13 @@ import FooterElement from './Atoms/FooterElement';
 
 export default function Footer(){
     return(
-        <footer class="footer">
-            <div class="container footer__grid">
-            <nav class="nav nav--footer">
-                    <a class="nav__items nav__items--footer" href="#inicio">Inicio</a>
-                    <a class="nav__items nav__items--footer" href="#sobreMi">Sobre mi</a>
-                    <a class="nav__items nav__items--footer" href="#skills">Mis skills</a>
-                    <a class="nav__items nav__items--footer" href="#proyectos">Proyectos</a>
+        <footer className="footer">
+            <div className="footer__grid">
+            <nav className="nav nav--footer">
+                    <a className="nav__items nav__items--footer" href="#inicio">Inicio</a>
+                    <a className="nav__items nav__items--footer" href="#sobreMi">Sobre mi</a>
+                    <a className="nav__items nav__items--footer" href="#skills">Mis skills</a>
+                    <a className="nav__items nav__items--footer" href="#proyectos">Proyectos</a>
                 </nav>
                 <section className="footer__contact">
                     <h3 className="footer__title">Contactame</h3>
