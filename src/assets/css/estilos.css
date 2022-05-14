@@ -2,6 +2,7 @@
 
 :root {
   --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
+  --background-other-pages: linear-gradient(135deg, #b2c1fd7c 10%, #bd81f982 80%);
   --color-primary: #667eea;
   --color-secondary: #764ba2;
   --boton-padding: 20px 40px;
@@ -257,22 +258,17 @@ img {
 /*ESTILOS FOOTER */
 
 .footer {
+  padding: 2rem 5rem 0 5rem;
   display: flex;
-  height: 280px;
   background: rgb(8,18,63);
   background: linear-gradient(83deg, rgba(8,18,63,1) 0%, rgba(58,69,117,1) 27%, rgba(102,126,234,1) 64%, rgb(158, 172, 240) 100%);
-}
-.footer__contact {
-  display: flex;
-  flex-direction: column;
-  margin-left: 72em;
 }
 
 .footer__grid {
   display: grid;
-  grid-template-columns: 3rf 2rf;
+  width: 100%;
+  grid-template-columns: 2rf 2rf;
   align-items: center;
-  padding-bottom: -10px;
 }
 
 .footer__title {
@@ -384,10 +380,12 @@ img {
   display: flex;
   flex-direction: row;
   padding: 5px;
-  background: rgb(62,86,233);
-  background: radial-gradient(circle, rgba(62,86,233,1) 0%, rgba(153,154,235,1) 36%, rgba(190,205,240,1) 62%, rgba(23,31,115,1) 100%);
+  background-image: var(--background-other-pages), url("/src/assets/images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   justify-content: space-around;
-  height: 34em;
+  height: 37em;
+  margin-bottom: 0.5rem;
 }
 
 .formulario{
@@ -425,6 +423,7 @@ img {
   font-size: 20px;
   margin-left: 7em;
   margin-bottom: 6px;
+  color: #0d0d0d;
 }
 
 .mycontact #wsp{
@@ -533,8 +532,9 @@ img {
 
 .main-slide{
   text-align: center;
-  background-color: #414e7e88;
-  height: 33em;
+  background-image: var(--background-other-pages), url("/src/assets/images/certificados-img.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .one-slide{
@@ -544,7 +544,20 @@ img {
 }
 
 .carousel{
-  height: fit-content;
+  margin-bottom: 0.5rem;
+  height: 6rem;
+}
+
+.carousel.carousel-slider {
+  height: 100%;
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider {
+  height: 100%;
+}
+
+.carousel .thumbs-wrapper {
+  margin-bottom: 0;
 }
 
 /*Responsive Design*/

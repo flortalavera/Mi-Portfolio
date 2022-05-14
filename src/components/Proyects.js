@@ -15,8 +15,8 @@ class Proyects extends React.Component{
                 <div className="projects__grid">
                     <article className="projects__item">
                         <img
-                        src={ empleados }
-                        alt={ empleados }
+                        src={ presupuesto }
+                        alt={ presupuesto }
                         className="projects__img"
                         />
                         <div>
@@ -51,8 +51,8 @@ class Proyects extends React.Component{
 
                     <article className="projects__item">
                         <img
-                        src={ presupuesto }
-                        alt={ presupuesto }
+                        src={ empleados }
+                        alt={ empleados }
                         className="projects__img"
                         />
                         <div>
