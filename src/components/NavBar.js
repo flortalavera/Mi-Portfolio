@@ -8,10 +8,10 @@ const NavBar = () => {
         <div className="navbar">
         <img
         src={navbar}
-        className="iconoNavBar"
+        className="navbar-icon"
         alt={navbar}>
         </img>
-        <nav id="otherNav">
+        <nav className="other-nav">
                     <NavLink
                         to="/"
                         className={({ isActive }) => (isActive ? "active2" : "nav__items__gral")} >

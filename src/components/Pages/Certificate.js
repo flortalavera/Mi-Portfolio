@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../NavBar';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "../../../src/assets/css/estilos.css";
+import "../../../src/assets/css/index.css";
 
 import ApiyServWeb from '../../assets/galeria/API y servicios web.jpg';
 import AppsMoviles from '../../assets/galeria/AppsMoviles.jpg';

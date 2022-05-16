@@ -1,5 +1,5 @@
 //importo los estilos
-import './assets/css/estilos.css';
+import './assets/css/index.css';
 import './assets/css/normalize.css';
 
 //importo los componentes

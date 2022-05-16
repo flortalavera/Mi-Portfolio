@@ -11,7 +11,7 @@ class Proyects extends React.Component{
         return(
             <section className="projects">
             <div className="container">
-                <h2 id="proyectos" className="subtitle">Mis proyectos</h2>
+                <h2 id="proyects" className="subtitle">Mis proyectos</h2>
                 <div className="projects__grid">
                     <article className="projects__item">
                         <img
@@ -22,7 +22,7 @@ class Proyects extends React.Component{
                         <div>
                             <a
                             className="projects__hover"
-                            href="https://cocky-ride-efe7ac.netlify.app/"
+                            href="http://flor-talavera-app-presupuesto.s3-website-us-east-1.amazonaws.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             >App-Presupuesto-Angular

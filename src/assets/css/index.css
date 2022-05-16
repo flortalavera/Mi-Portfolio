@@ -12,7 +12,6 @@ body {
 }
 
 p {
-  font-family: "Oswald", sans-serif;
   font-size: 20px;
 }
 
@@ -308,7 +307,7 @@ img {
   font-size: 30px;
 }
 
-.nav {
+.nav-header {
   display: flex;
   justify-content: flex-end;
   height: 0px;
@@ -332,7 +331,7 @@ img {
   background-color: rgba(65, 98, 247, 0.548);
 }
 
-.nav--footer {
+.nav-footer {
   font-weight: 300;
   justify-content: flex-start;
   text-decoration: underline;
@@ -388,7 +387,7 @@ img {
   margin-bottom: 0.5rem;
 }
 
-.formulario{
+.contact-form{
   width: 40%;
   text-align: center;
   display: flex;
@@ -397,7 +396,7 @@ img {
 
 }
 
-.otrosContactos{
+.others-contacts{
   height: 85%;
   text-align: center;
   display: flex;
@@ -407,32 +406,32 @@ img {
   justify-content: space-between;
 }
 
-.mycontact{
+.my-contact{
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 10px;
 }
 
-.mycontact p{
+.my-contact p{
   margin-left: 5em;
   margin-bottom: 6px;
 }
 
-.mycontact a{
+.my-contact a{
   font-size: 20px;
   margin-left: 7em;
   margin-bottom: 6px;
   color: #0d0d0d;
 }
 
-.mycontact #wsp{
+.my-contact #wsp{
   font-size: 20px;
   margin-left: 2em;
   margin-bottom: 6px;
 }
 
-.iconoNavBar{
+.navbar-icon{
   width: 15%;
 }
 
@@ -449,7 +448,7 @@ img {
   color: #0d0d0d;
 }
 
-#labelClassic{
+#label-classic{
   border: none;
   background-color: transparent;
 }
@@ -492,12 +491,12 @@ img {
   height: 2em;
 }
 
-.iconcontact {
+.icon-contact {
   width: 60px;
   margin: 10px;
 }
 
-#otherNav{
+.other-nav{
   width: auto;
   margin-right: 4.5em;
   padding: 0;
@@ -505,7 +504,7 @@ img {
   box-shadow: none;
 }
 
-#otherNav a{
+.other-nav a{
   padding: 15px;
   margin: 0.5em;
 }
@@ -567,7 +566,7 @@ img {
     --boton-padding: 18px 40px;
   }
 
-  .nav {
+  .nav-header {
     justify-content: space-around;
   }
   .nav__items--cta {
@@ -627,7 +626,7 @@ img {
     font-size: 2rem;
     margin-bottom: 20px;
   }
-  .nav {
+  .nav-header {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-top: 0;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './assets/css/estilos.css';
+import './assets/css/index.css';
 import './assets/css/normalize.css';
 import App from './App';
 

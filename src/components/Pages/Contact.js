@@ -31,50 +31,50 @@ class Contact extends React.Component {
         return (
             <><NavBar />
             <section className='contact'>
-                <div className='formulario'>
+                <div className='contact-form'>
                     <h2>Tu sugerencia me ayuda a mejorar</h2>
                     <form className='form'>
                         <div className='form-group'>
-                            <label id='labelClassic'>Nombre</label>
+                            <label id='label-classic'>Nombre</label>
                             <input type='text' name='nombre'></input>
                         </div>
 
                         <div className='form-group'>
-                            <label id='labelClassic'>Apellido</label>
+                            <label id='label-classic'>Apellido</label>
                             <input type='text' name='apellido'></input>
                         </div>
 
                         <div className='form-group'>
-                            <label id='labelClassic'>Sugerencias</label>
+                            <label id='label-classic'>Sugerencias</label>
                             <textarea type='text' name='sugerencia'></textarea>
                         </div>
                         <input type='submit' value='Enviar' className='btn' id="btn-contact"></input>
                     </form>
                 </div>
-                <div className='otrosContactos'>
+                <div className='others-contacts'>
                     <h2>Otros medios de contacto</h2>
-                    <div className='mycontact'>
+                    <div className='my-contact'>
                     <img
                         src={ Gmail }
                         alt={ Gmail }
-                        className="iconcontact"
-                        /><h4 className="contactTitle">Mail</h4>
+                        className="icon-contact"
+                        /><h4 className="contact-title">Mail</h4>
                     <p>florii.talavera@gmail.com </p>
                     </div>
-                    <div className='mycontact'>
+                    <div className='my-contact'>
                     <img
                         src={ CV }
                         alt={ CV }
-                        className="iconcontact"
-                        /><h4 className="contactTitle">CV</h4>
+                        className="icon-contact"
+                        /><h4 className="contact-title">CV</h4>
                     <a href="../assets/CV-Flor-Talavera.pdf" download="CV-Flor-Talavera">Descargar mi CV</a>
                     </div>
-                    <div className='mycontact'>
+                    <div className='my-contact'>
                     <img
                         src={ Whatsapp }
                         alt={ Whatsapp }
-                        className="iconcontact"
-                        /><h4 className="contactTitle">Mi whatsapp</h4>
+                        className="icon-contact"
+                        /><h4 className="contact-title">Mi whatsapp</h4>
                     <a id='wsp' href="http://wa.me/541131362662" target="_blank" rel="noopener noreferrer">click acá para enviar msj</a>
                     </div>
                 </div>

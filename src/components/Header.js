@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header className="hero">
             <div className="container">
-                <nav id="inicio" className="nav">
+                <nav id="inicio" className="nav-header">
                     <NavLink
                         to="/"
                         className={({ isActive }) => (isActive ? "active" : "nav__items nav__items--cta")} >

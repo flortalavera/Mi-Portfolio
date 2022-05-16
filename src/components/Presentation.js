@@ -11,7 +11,7 @@ const Presentation = () => {
             className="presentation__picture"
             alt={Flor}
             />
-            <h2 id="sobreMi" className="subtitle">
+            <h2 id="about-me" className="subtitle">
                 Mi nombre es Florencia Talavera
             </h2>
             <div className="presentation__copy">

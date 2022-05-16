@@ -9,11 +9,11 @@ export default function Footer(){
     return(
         <footer className="footer">
             <div className="footer__grid">
-            <nav className="nav nav--footer">
+            <nav className="nav-header nav-footer">
                     <a className="nav__items nav__items--footer" href="#inicio">Inicio</a>
-                    <a className="nav__items nav__items--footer" href="#sobreMi">Sobre mi</a>
+                    <a className="nav__items nav__items--footer" href="#about-me">Sobre mi</a>
                     <a className="nav__items nav__items--footer" href="#skills">Mis skills</a>
-                    <a className="nav__items nav__items--footer" href="#proyectos">Proyectos</a>
+                    <a className="nav__items nav__items--footer" href="#proyects">Proyectos</a>
                 </nav>
                     <h3 className="footer__title">Contactame</h3>
                     <div className="footer__icons">
