@@ -2,7 +2,7 @@
 
 :root {
   --background: linear-gradient(135deg, #667eea7e 0%, #764ba298 100%);
-  --background-other-pages: linear-gradient(135deg, #b2c1fd7c 10%, #bd81f982 80%);
+  --background-other-pages: linear-gradient(135deg, #b2c1fd7c 10%, #bd81f982 70%);
   --color-primary: #667eea;
   --color-secondary: #764ba2;
   --boton-padding: 20px 40px;
@@ -312,6 +312,7 @@ img {
   justify-content: flex-end;
   height: 0px;
   align-items: center;
+  margin-top: 2rem;
   font-weight: 700;
 }
 
@@ -488,7 +489,8 @@ img {
   padding: 5px;
   font-size: 20px;
   text-align: center;
-  height: 2em;
+  height: 3rem;
+  margin-top: 1rem;
 }
 
 .icon-contact {

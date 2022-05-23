@@ -1,28 +1,32 @@
 import React from 'react';
 import NavBar from '../NavBar';
+import { motion } from 'framer-motion';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../../../src/assets/css/index.css";
 
-import ApiyServWeb from '../../assets/galeria/API y servicios web.jpg';
-import AppsMoviles from '../../assets/galeria/AppsMoviles.jpg';
-import EdIT from '../../assets/galeria/EdIT.jpg';
-import GitWorkflow from '../../assets/galeria/Git-workflow.png';
-import GitHub from '../../assets/galeria/Github.jpg';
-import HtmlyCss from '../../assets/galeria/HtmlyCss.jpg';
-import Javascript from '../../assets/galeria/Javascript.jpg';
-import Python from '../../assets/galeria/Python1.jpg';
-import PythonEsencial from '../../assets/galeria/PythonEsencial.jpg';
-import Scrum from '../../assets/galeria/Scrum.jpg';
-import TransfDigital from '../../assets/galeria/transform-digital.jpg';
-import UX from '../../assets/galeria/UX.png';
+import ApiyServWeb from '../../assets/galery/API y servicios web.jpg';
+import AppsMoviles from '../../assets/galery/AppsMoviles.jpg';
+import EdIT from '../../assets/galery/EdIT.jpg';
+import GitWorkflow from '../../assets/galery/Git-workflow.png';
+import GitHub from '../../assets/galery/Github.jpg';
+import HtmlyCss from '../../assets/galery/HtmlyCss.jpg';
+import Javascript from '../../assets/galery/Javascript.jpg';
+import Python from '../../assets/galery/Python1.jpg';
+import PythonEsencial from '../../assets/galery/PythonEsencial.jpg';
+import Scrum from '../../assets/galery/Scrum.jpg';
+import TransfDigital from '../../assets/galery/transform-digital.jpg';
+import UX from '../../assets/galery/UX.png';
 
 class Certificate extends React.Component{
 
     render(){
         return (
             <><NavBar />
-            <div>
+            <motion.div
+            initial={{ opacity: 0}}
+            animate={{ opacity: 1}}
+            >
                 <Carousel className='main-slide'>
                 <div className='one-slide'>
                     <img
@@ -109,7 +113,7 @@ class Certificate extends React.Component{
                      />
                 </div>
              </Carousel>
-            </div>
+            </motion.div>
             <p className="copy2">&copy; Mi Portfolio en React by Flor Talavera </p>
             </>
         );

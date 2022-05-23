@@ -1,4 +1,6 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
 import NavBar from '../NavBar';
 import Gmail from '../../assets/images/gmail.png';
 import Whatsapp from '../../assets/images/whatsapp.png';
@@ -30,7 +32,10 @@ class Contact extends React.Component {
         
         return (
             <><NavBar />
-            <section className='contact'>
+            <motion.section className='contact'
+            initial={{ opacity: 0}}
+            animate={{ opacity: 1}}
+            >
                 <div className='contact-form'>
                     <h2>Tu sugerencia me ayuda a mejorar</h2>
                     <form className='form'>
@@ -78,7 +83,7 @@ class Contact extends React.Component {
                     <a id='wsp' href="http://wa.me/541131362662" target="_blank" rel="noopener noreferrer">click acá para enviar msj</a>
                     </div>
                 </div>
-            </section>
+            </motion.section>
             <p className="copy2">&copy; Mi Portfolio en React by Flor Talavera </p></>
         );
     }

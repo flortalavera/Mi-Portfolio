@@ -1,4 +1,6 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
 import Header from '../Header';
 import Presentation from '../Presentation';
 import Aptitudes from '../Aptitudes';
@@ -8,14 +10,17 @@ import Skills from '../Skills';
 
 function Home() {
     return (
-      <body>
+      <motion.body
+      initial={{ opacity: 0}}
+      animate={{ opacity: 1}}
+      >
         <Header />
         <Presentation />
         <Skills/>
         <Aptitudes/>
         <Proyects/>
         <Footer/>
-      </body>
+      </motion.body>
     );
   }
 
